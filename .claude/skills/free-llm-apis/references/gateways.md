@@ -41,7 +41,7 @@ Gateways you run on your own machine. They don't issue free keys themselves: the
 ### Connect free providers
 
 In the dashboard, go to **Providers**:
-- **OpenCode Free** needs no auth and is pre-wired into the `auto` model, so a fresh install answers immediately.
+- **OpenCode Free** needs no auth and is pre-wired into the `auto` model, so a fresh install answers immediately. It is listed under the **No Auth** category (orange "OC" icon), not in the default view.
 - **Kiro AI** gives free Claude, about 50 credits/month per account (OAuth; check the terms-risk note above).
 - Add official free keys (Gemini, Groq, NVIDIA NIM, Mistral, OpenRouter...) so they join the fallback chain.
 
