@@ -45,9 +45,11 @@ In the dashboard, go to **Providers**:
 - **Kiro AI** gives free Claude, about 50 credits/month per account (OAuth; check the terms-risk note above).
 - Add official free keys (Gemini, Groq, NVIDIA NIM, Mistral, OpenRouter...) so they join the fallback chain.
 
-### Get the OmniRoute API key
+### Get the OmniRoute API key (optional by default)
 
-Go to **Endpoints** in the dashboard and copy the key.
+By default `REQUIRE_API_KEY=false` and the server binds to `127.0.0.1`, so local calls to `/v1` work without any key. If you set `REQUIRE_API_KEY=true` (needed before exposing it on a LAN or the internet), go to **Endpoints** in the dashboard and copy the key. Many clients, including the OpenAI SDK, still require a non-empty `api_key`: pass the real key, or any placeholder string when keys aren't enforced.
+
+Upstream providers are separate: OpenCode Free needs no key, while Gemini, Groq and the like need their own free keys registered under **Providers**.
 
 - **Base URL:** `http://localhost:20128/v1`
 - **Model:** `auto` (smart routing), or `provider/model` for a specific backend (e.g. `oc/...` for OpenCode Free)
