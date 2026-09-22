@@ -62,7 +62,7 @@ import os
 from openai import OpenAI
 
 client = OpenAI(
-    api_key=os.environ["OMNIROUTE_API_KEY"],
+    api_key=os.environ.get("OMNIROUTE_API_KEY", "none"),  # placeholder works when keys are not enforced
     base_url="http://localhost:20128/v1"
 )
 
