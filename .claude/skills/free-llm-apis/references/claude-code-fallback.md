@@ -61,7 +61,7 @@ To return to Claude after the limit resets, open a **new** terminal (the `set` /
 
 ### One-click launcher for Windows (optional)
 
-Save as `claude-free.bat` in the project folder and double-click it. It asks for the key each time instead of storing it in the file.
+A fuller version is in [../assets/claude-free.bat](../assets/claude-free.bat): it checks that the server is up (and offers to start it in its own window), validates the OmniRoute key, then asks whether to continue the last conversation or start a new one. Copy it into the project folder and double-click it. The minimal version below does the same launch without the checks. Both ask for the key each time instead of storing it in the file.
 
 ```bat
 @echo off
