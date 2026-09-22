@@ -1,6 +1,6 @@
 ---
 name: free-llm-apis
-description: Guide users through obtaining and configuring free API keys for LLM providers. Use when the user wants to set up a free LLM API, get a free API key, connect to a free model provider, configure an OpenAI-compatible endpoint at no cost, or asks about free tiers for AI models. Triggers on "free API key", "free LLM", "set up Gemini/Groq/Mistral/etc.", "which free provider", "how to get an API key", "free model access", "configure LLM for free", "OmniRoute", "LLM gateway", "무료 API 키", "무료 LLM".
+description: Guide users through obtaining and configuring free API keys for LLM providers. Use when the user wants to set up a free LLM API, get a free API key, connect to a free model provider, configure an OpenAI-compatible endpoint at no cost, or asks about free tiers for AI models. Triggers on "free API key", "free LLM", "set up Gemini/Groq/Mistral/etc.", "which free provider", "how to get an API key", "free model access", "configure LLM for free", "OmniRoute", "LLM gateway", "Claude usage limit", "out of Claude credits", "continue Claude Code on free models", "무료 API 키", "무료 LLM", "크레딧 소진", "한도 초과".
 ---
 
 # Free LLM API Setup
@@ -45,6 +45,10 @@ Steer away from these unless the user asks for them specifically:
 **Self-hosted gateways**: run on the user's machine and route to the providers above through one endpoint. Not part of the upstream awesome list.
 - OmniRoute
 - See [references/gateways.md](references/gateways.md) for setup instructions.
+
+## Claude Usage Ran Out
+
+If the user wants to keep a Claude Code task going on free models after hitting a Claude usage limit or running out of credits, load [references/claude-code-fallback.md](references/claude-code-fallback.md). It points the local Claude Code CLI at OmniRoute backed by official free keys, then switches back once the limit resets. Say up front that it only works for the local CLI, not cloud sessions, and that free models are weaker agents.
 
 ## Workflow
 
