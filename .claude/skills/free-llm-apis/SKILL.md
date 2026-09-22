@@ -1,6 +1,6 @@
 ---
 name: free-llm-apis
-description: Guide users through obtaining and configuring free API keys for LLM providers. Use when the user wants to set up a free LLM API, get a free API key, connect to a free model provider, configure an OpenAI-compatible endpoint at no cost, or asks about free tiers for AI models. Triggers on "free API key", "free LLM", "set up Gemini/Groq/Mistral/etc.", "which free provider", "how to get an API key", "free model access", "configure LLM for free", "무료 API 키", "무료 LLM".
+description: Guide users through obtaining and configuring free API keys for LLM providers. Use when the user wants to set up a free LLM API, get a free API key, connect to a free model provider, configure an OpenAI-compatible endpoint at no cost, or asks about free tiers for AI models. Triggers on "free API key", "free LLM", "set up Gemini/Groq/Mistral/etc.", "which free provider", "how to get an API key", "free model access", "configure LLM for free", "OmniRoute", "LLM gateway", "무료 API 키", "무료 LLM".
 ---
 
 # Free LLM API Setup
@@ -25,6 +25,7 @@ Ask the user what matters most, then recommend accordingly:
 | European hosting | Mistral AI (FR), OVHcloud AI Endpoints (FR, EU data centers) |
 | No signup or key at all | OVHcloud (2 RPM anonymous), LLM7.io (anonymous `turbo` models), Kilo Code (200 req/hr per IP) |
 | Roleplay / storytelling | Aion Labs |
+| One local endpoint that pools many free tiers with auto-fallback | OmniRoute (self-hosted gateway) |
 
 Steer away from these unless the user asks for them specifically:
 - **Cohere**: non-commercial use only, 1,000 calls/month.
@@ -40,6 +41,10 @@ Steer away from these unless the user asks for them specifically:
 **Inference providers**: third-party platforms hosting open-weight models.
 - Cloudflare Workers AI, Groq, Hugging Face, Kilo Code, LLM7.io, ModelScope, NVIDIA NIM, Ollama Cloud, OpenRouter, OVHcloud AI Endpoints, SiliconFlow
 - See [references/inference-providers.md](references/inference-providers.md) for setup instructions.
+
+**Self-hosted gateways**: run on the user's machine and route to the providers above through one endpoint. Not part of the upstream awesome list.
+- OmniRoute
+- See [references/gateways.md](references/gateways.md) for setup instructions.
 
 ## Workflow
 
