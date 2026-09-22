@@ -48,7 +48,7 @@ Steer away from these unless the user asks for them specifically:
 
 ## Claude Usage Ran Out
 
-If the user wants to keep a Claude Code task going on free models after hitting a Claude usage limit or running out of credits, load [references/claude-code-fallback.md](references/claude-code-fallback.md). It points the local Claude Code CLI at OmniRoute backed by official free keys, then switches back once the limit resets. Say up front that it only works for the local CLI, not cloud sessions, and that free models are weaker agents.
+If the user wants to keep a Claude Code task going on free models after hitting a Claude usage limit or running out of credits, load [references/claude-code-fallback.md](references/claude-code-fallback.md). It points the local Claude Code CLI at OmniRoute backed by official free keys, then switches back once the limit resets. Say up front that it only works for the local CLI, not cloud sessions, and that free models are weaker agents. The setup was verified end to end on Windows 11; use its Troubleshooting table when a step fails instead of guessing, and ask for the exact error text or a screenshot.
 
 ## Workflow
 
