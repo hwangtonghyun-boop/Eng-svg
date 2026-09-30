@@ -1,0 +1,84 @@
+<svg viewBox="0 0 900 470" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="메탈 베어링에서 유막 압력의 최대점이 비껴 있어 직각 방향 힘이 생기고 오일 훨로 이어지는 과정">
+  <title>교차 결합 강성과 오일 훨</title>
+
+  <defs>
+    <marker id="xcLoad" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#2f3d4f"/>
+    </marker>
+    <marker id="xcSide" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#c0392b"/>
+    </marker>
+    <marker id="xcRot" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#c1500a"/>
+    </marker>
+  </defs>
+
+  <g font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+
+    <!-- ============ ① 압력 분포 ============ -->
+    <rect x="20" y="30" width="420" height="340" rx="8" fill="#fafbfc" stroke="#dfe4e8"/>
+    <text x="40" y="58" font-size="14" font-weight="700" fill="#2c3e50">① 압력 최대점이 비껴 있다</text>
+    <text x="40" y="76" font-size="10.5" fill="#1f2933">축이 오일을 끌고 가기 때문이다</text>
+
+    <circle cx="230" cy="215" r="104" fill="#eef2f5" stroke="#44546a" stroke-width="2.6"/>
+    <circle cx="230" cy="215" r="98" fill="#e6d3a3"/>
+    <circle cx="230" cy="248" r="78" fill="#6b8194" stroke="#3f4b58" stroke-width="2"/>
+    <circle cx="230" cy="248" r="5" fill="#1a1a1a"/>
+    <circle cx="230" cy="215" r="5" fill="none" stroke="#8b98a4" stroke-width="1.6"/>
+    <text x="244" y="210" font-size="9.5" fill="#5b6673">베어링 중심</text>
+    <text x="244" y="262" font-size="9.5" font-weight="700" fill="#ffffff">축 중심</text>
+
+    <path d="M 296 156 A 82 82 0 0 1 316 196" fill="none" stroke="#c1500a" stroke-width="3" marker-end="url(#xcRot)"/>
+    <text x="300" y="146" font-size="10.5" font-weight="700" fill="#8a3a08">회전</text>
+
+    <path d="M 230 92 L 230 128" stroke="#2f3d4f" stroke-width="4" marker-end="url(#xcLoad)"/>
+    <text x="240" y="112" font-size="11" font-weight="700" fill="#2f3d4f">하중</text>
+
+    <path d="M 162 310 C 178 336, 210 348, 236 344 C 268 338, 292 316, 300 292"
+          fill="none" stroke="#c0392b" stroke-width="3.4"/>
+    <text x="176" y="352" font-size="10" font-weight="700" fill="#a03228">유막 압력 분포</text>
+
+    <path d="M 230 326 L 230 362" stroke="#8b98a4" stroke-width="1.6" stroke-dasharray="4 3"/>
+    <text x="230" y="376" font-size="9.5" fill="#5b6673" text-anchor="middle">하중 방향</text>
+
+    <circle cx="272" cy="332" r="6" fill="#c0392b"/>
+    <path d="M 302 356 L 278 340" stroke="#a03228" stroke-width="1.2"/>
+    <text x="308" y="360" font-size="10.5" font-weight="700" fill="#a03228">최대 압력</text>
+    <text x="308" y="374" font-size="9.5" fill="#a03228">회전 방향으로 밀린다</text>
+
+    <!-- ============ ② 직각 힘과 훨 ============ -->
+    <rect x="460" y="30" width="420" height="340" rx="8" fill="#fdf9f8" stroke="#e8d9d6"/>
+    <text x="480" y="58" font-size="14" font-weight="700" fill="#2c3e50">② 그래서 직각으로 밀린다</text>
+    <text x="480" y="76" font-size="10.5" fill="#1f2933">되돌아오지 못하고 궤도를 그린다</text>
+
+    <circle cx="670" cy="215" r="104" fill="#eef2f5" stroke="#44546a" stroke-width="2.6"/>
+    <circle cx="670" cy="215" r="98" fill="#e6d3a3"/>
+
+    <circle cx="670" cy="215" r="46" fill="none" stroke="#c0392b" stroke-width="2.6" stroke-dasharray="9 5"/>
+    <path d="M 716 215 A 46 46 0 0 1 706 244" fill="none" stroke="#c0392b" stroke-width="3" marker-end="url(#xcSide)"/>
+
+    <circle cx="670" cy="261" r="40" fill="#6b8194" stroke="#3f4b58" stroke-width="2" opacity="0.35"/>
+    <circle cx="702" cy="248" r="40" fill="#6b8194" stroke="#3f4b58" stroke-width="2" opacity="0.55"/>
+    <circle cx="716" cy="215" r="40" fill="#6b8194" stroke="#3f4b58" stroke-width="2"/>
+    <circle cx="716" cy="215" r="5" fill="#1a1a1a"/>
+
+    <path d="M 716 168 L 716 132" stroke="#c0392b" stroke-width="3.4" marker-end="url(#xcSide)" transform="rotate(90 716 215)"/>
+
+    <text x="670" y="219" font-size="10.5" font-weight="700" fill="#a03228" text-anchor="middle">축 중심이</text>
+    <text x="670" y="234" font-size="10.5" font-weight="700" fill="#a03228" text-anchor="middle">원을 그린다</text>
+
+    <text x="480" y="344" font-size="11" fill="#1a1a1a">축이 옆으로 밀리면 유막은 되밀어야 하는데</text>
+    <text x="480" y="362" font-size="11" font-weight="700" fill="#a03228">직각 방향 힘이 생겨 계속 돌게 만든다</text>
+
+    <!-- 캡션 -->
+    <text x="20" y="406" font-size="13" fill="#1a1a1a">
+      축이 오일을 끌고 가므로 압력 최대점이 하중 방향에서 회전 방향으로 비껴 나타난다. 그 비낌이 직각 방향 힘을 만든다.
+    </text>
+    <text x="20" y="428" font-size="13" fill="#1a1a1a">
+      이것이 교차 결합 강성이고, 오일 훨의 원인이다. 회전 주파수의 절반보다 약간 낮은 대역에 성분이 나타난다.
+    </text>
+    <text x="20" y="450" font-size="13" fill="#1a1a1a">
+      하중이 작아 축이 중심에 가까울수록 불안정해진다. 가볍게 실린 고속 로터가 가장 위험한 이유다.
+    </text>
+  </g>
+</svg>

@@ -1,0 +1,86 @@
+<svg viewBox="0 0 900 460" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="메탈 베어링과 틸팅 패드 저널 베어링의 구조 비교와 패드가 접선력을 받지 못하는 이유">
+  <title>구조가 성질을 만든다</title>
+
+  <defs>
+    <marker id="tpSide" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#c0392b"/>
+    </marker>
+    <marker id="tpPivot" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#2f6b3a"/>
+    </marker>
+  </defs>
+
+  <g font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+
+    <!-- ============ ① 메탈 ============ -->
+    <rect x="20" y="30" width="420" height="330" rx="8" fill="#fdf9f8" stroke="#e8d9d6"/>
+    <text x="40" y="58" font-size="14" font-weight="700" fill="#2c3e50">① 메탈 베어링</text>
+    <text x="40" y="76" font-size="10.5" fill="#1f2933">면이 이어져 있어 접선력을 지탱한다</text>
+
+    <circle cx="230" cy="205" r="98" fill="#8a97a3" stroke="#3f4b58" stroke-width="2.4"/>
+    <circle cx="230" cy="205" r="86" fill="#c8a882" stroke="#a8795a" stroke-width="2"/>
+    <circle cx="230" cy="205" r="80" fill="#e6d3a3"/>
+    <circle cx="230" cy="232" r="70" fill="#44546a" stroke="#2f3d4f" stroke-width="2"/>
+    <circle cx="230" cy="232" r="5" fill="#ffffff"/>
+
+    <text x="128" y="128" font-size="10" font-weight="700" fill="#7a4f34">라이닝 — 연한 합금</text>
+    <path d="M 176 136 L 198 154" stroke="#7a4f34" stroke-width="1.2"/>
+
+    <path d="M 300 232 L 336 232" stroke="#c0392b" stroke-width="3.4" marker-end="url(#tpSide)"/>
+    <text x="344" y="228" font-size="11" font-weight="700" fill="#a03228">접선력</text>
+    <text x="344" y="244" font-size="9.5" fill="#a03228">면이 받아낸다</text>
+
+    <text x="40" y="332" font-size="11" font-weight="700" fill="#a03228">교차 결합이 남아 오일 훨의 원인이 된다</text>
+
+    <!-- ============ ② 틸팅 패드 ============ -->
+    <rect x="460" y="30" width="420" height="330" rx="8" fill="#f7fbf7" stroke="#d6e6d4"/>
+    <text x="480" y="58" font-size="14" font-weight="700" fill="#2c3e50">② 틸팅 패드 저널 베어링</text>
+    <text x="480" y="76" font-size="10.5" fill="#1f2933">패드가 기울어 접선력을 받지 못한다</text>
+
+    <circle cx="670" cy="205" r="98" fill="#8a97a3" stroke="#3f4b58" stroke-width="2.4"/>
+    <circle cx="670" cy="205" r="84" fill="#eef2f5"/>
+
+    <g fill="#c8a882" stroke="#a8795a" stroke-width="1.6">
+      <path d="M 670 121 A 84 84 0 0 1 718 136 L 706 155 A 66 66 0 0 0 670 143 Z"/>
+      <path d="M 738 148 A 84 84 0 0 1 753 196 L 731 199 A 66 66 0 0 0 719 165 Z"/>
+      <path d="M 750 231 A 84 84 0 0 1 720 272 L 707 254 A 66 66 0 0 0 730 222 Z"/>
+      <path d="M 692 287 A 84 84 0 0 1 648 287 L 653 265 A 66 66 0 0 0 687 265 Z"/>
+      <path d="M 620 272 A 84 84 0 0 1 590 231 L 610 222 A 66 66 0 0 0 633 254 Z"/>
+      <path d="M 587 196 A 84 84 0 0 1 602 148 L 621 165 A 66 66 0 0 0 609 199 Z"/>
+      <path d="M 622 136 A 84 84 0 0 1 668 121 L 668 143 A 66 66 0 0 0 634 155 Z"/>
+    </g>
+
+    <circle cx="670" cy="215" r="64" fill="#44546a" stroke="#2f3d4f" stroke-width="2"/>
+    <circle cx="670" cy="215" r="5" fill="#ffffff"/>
+
+    <circle cx="694" cy="129" r="4.5" fill="#2f6b3a"/>
+    <circle cx="746" cy="172" r="4.5" fill="#2f6b3a"/>
+    <circle cx="736" cy="252" r="4.5" fill="#2f6b3a"/>
+    <circle cx="670" cy="289" r="4.5" fill="#2f6b3a"/>
+    <circle cx="604" cy="252" r="4.5" fill="#2f6b3a"/>
+    <circle cx="594" cy="172" r="4.5" fill="#2f6b3a"/>
+    <circle cx="646" cy="129" r="4.5" fill="#2f6b3a"/>
+
+    <path d="M 736 252 L 704 232" stroke="#2f6b3a" stroke-width="2.6" marker-end="url(#tpPivot)"/>
+    <text x="760" y="288" font-size="10.5" font-weight="700" fill="#2f6b3a">힘은 항상</text>
+    <text x="760" y="302" font-size="10.5" font-weight="700" fill="#2f6b3a">피벗을 향한다</text>
+
+    <path d="M 768 205 L 800 205" stroke="#c0392b" stroke-width="3.4" marker-end="url(#tpSide)"/>
+    <path d="M 776 190 L 800 214 M 800 190 L 776 214" stroke="#c0392b" stroke-width="3"/>
+    <text x="806" y="180" font-size="10.5" font-weight="700" fill="#a03228">접선력</text>
+    <text x="806" y="194" font-size="9.5" fill="#a03228">성립하지 않는다</text>
+
+    <text x="480" y="332" font-size="11" font-weight="700" fill="#2f6b3a">교차 결합이 사라져 오일 훨이 생기지 않는다</text>
+
+    <!-- 캡션 -->
+    <text x="20" y="398" font-size="13" fill="#1a1a1a">
+      패드가 피벗 위에서 자유롭게 기울어지므로, 패드에 작용하는 힘은 항상 피벗을 향한다. 피벗을 벗어난 방향의 힘이 생기면 패드가 그 방향으로 기울어 버린다.
+    </text>
+    <text x="20" y="420" font-size="13" fill="#1a1a1a">
+      틸팅 패드가 안정적인 것은 좋은 재료를 써서가 아니다. 불안정을 만드는 힘이 애초에 생길 수 없도록 형상을 바꾼 것이다.
+    </text>
+    <text x="20" y="442" font-size="13" fill="#1a1a1a">
+      대가도 있다. 부품이 많고 비싸며, 패드로 나뉘어 있어 하중 용량은 상대적으로 작다.
+    </text>
+  </g>
+</svg>
