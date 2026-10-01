@@ -1,0 +1,89 @@
+<svg viewBox="0 0 900 470" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="저속에서는 동압 유막이 생기지 않아 재킹 오일로 로터를 들어 올리는 구조와 속도에 따른 두 방식의 역할 분담">
+  <title>저속에서는 유막이 없다</title>
+
+  <defs>
+    <marker id="jkOil" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#1d5a92"/>
+    </marker>
+    <marker id="jkAx" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#1a1a1a"/>
+    </marker>
+  </defs>
+
+  <g font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+
+    <!-- ============ ① 재킹 오일 없음 ============ -->
+    <rect x="20" y="30" width="280" height="250" rx="8" fill="#fdf9f8" stroke="#e8d9d6"/>
+    <text x="38" y="58" font-size="13.5" font-weight="700" fill="#2c3e50">① 터닝 중, 재킹 없음</text>
+
+    <path d="M 160 100 A 78 78 0 0 1 160 256 A 78 78 0 0 1 160 100" fill="#8a97a3" stroke="#3f4b58" stroke-width="2"/>
+    <circle cx="160" cy="178" r="68" fill="#e6d3a3"/>
+    <circle cx="160" cy="242" r="62" fill="#44546a" stroke="#2f3d4f" stroke-width="2"/>
+    <circle cx="160" cy="242" r="4" fill="#ffffff"/>
+
+    <path d="M 118 244 L 202 244" stroke="#c0392b" stroke-width="3.4"/>
+    <circle cx="160" cy="302" r="12" fill="#e8a33d" opacity="0.5"/>
+    <path d="M 160 290 L 160 284 M 148 302 L 142 302 M 172 302 L 178 302" stroke="#c0392b" stroke-width="2.2"/>
+
+    <text x="160" y="330" font-size="10.5" font-weight="700" fill="#a03228" text-anchor="middle">축이 닿아 있다</text>
+    <text x="160" y="346" font-size="9.5" fill="#a03228" text-anchor="middle">라이닝이 긁힌다</text>
+
+    <!-- ============ ② 재킹 오일 적용 ============ -->
+    <rect x="320" y="30" width="280" height="250" rx="8" fill="#f7fbf7" stroke="#d6e6d4"/>
+    <text x="338" y="58" font-size="13.5" font-weight="700" fill="#2c3e50">② 재킹 오일 적용</text>
+
+    <path d="M 460 100 A 78 78 0 0 1 460 256 A 78 78 0 0 1 460 100" fill="#8a97a3" stroke="#3f4b58" stroke-width="2"/>
+    <circle cx="460" cy="178" r="68" fill="#e6d3a3"/>
+    <circle cx="460" cy="192" r="62" fill="#44546a" stroke="#2f3d4f" stroke-width="2"/>
+    <circle cx="460" cy="192" r="4" fill="#ffffff"/>
+
+    <path d="M 460 290 L 460 258" stroke="#1d5a92" stroke-width="8" marker-end="url(#jkOil)"/>
+    <rect x="428" y="292" width="64" height="24" rx="4" fill="#dce8f2" stroke="#1d5a92" stroke-width="1.8"/>
+    <text x="460" y="309" font-size="10" font-weight="700" fill="#123049" text-anchor="middle">고압 오일</text>
+
+    <path d="M 432 252 L 488 252" stroke="#2f6b3a" stroke-width="2.6"/>
+    <text x="538" y="250" font-size="10.5" font-weight="700" fill="#2f6b3a" text-anchor="end">떠 있다</text>
+
+    <text x="460" y="340" font-size="10.5" font-weight="700" fill="#2f6b3a" text-anchor="middle">속도와 무관하게 들어 올린다</text>
+
+    <!-- ============ ③ 속도별 역할 ============ -->
+    <rect x="620" y="30" width="260" height="250" rx="8" fill="#fafbfc" stroke="#dfe4e8"/>
+    <text x="638" y="58" font-size="13.5" font-weight="700" fill="#2c3e50">③ 속도별 역할</text>
+
+    <line x1="650" y1="90" x2="650" y2="236" stroke="#1a1a1a" stroke-width="1.6"/>
+    <path d="M 650 236 L 862 236" stroke="#1a1a1a" stroke-width="1.6" marker-end="url(#jkAx)"/>
+    <text x="854" y="256" font-size="10" fill="#1a1a1a" text-anchor="end">회전수</text>
+    <text x="636" y="166" font-size="10" fill="#1a1a1a" transform="rotate(-90 636 166)" text-anchor="middle">지지력</text>
+
+    <path d="M 660 110 L 660 236 L 712 236 L 712 110 Z" fill="#cfe0ee" stroke="#1d5a92" stroke-width="1.8"/>
+    <text x="686" y="104" font-size="10" font-weight="700" fill="#123049" text-anchor="middle">정압</text>
+
+    <path d="M 700 236 C 740 232, 780 190, 820 150 C 836 134, 848 122, 856 116"
+          fill="none" stroke="#c0392b" stroke-width="3"/>
+    <text x="828" y="110" font-size="10" font-weight="700" fill="#a03228" text-anchor="middle">동압</text>
+
+    <line x1="712" y1="90" x2="712" y2="236" stroke="#8a6d24" stroke-width="1.8" stroke-dasharray="5 4"/>
+    <text x="718" y="200" font-size="9.5" font-weight="700" fill="#5c4610">인수인계</text>
+
+    <text x="662" y="258" font-size="9.5" fill="#7a8794">터닝</text>
+    <text x="820" y="258" font-size="9.5" fill="#7a8794" text-anchor="middle">정상 운전</text>
+
+    <text x="638" y="300" font-size="10.5" fill="#1a1a1a">터닝 중에는 외부 펌프가 받치고</text>
+    <text x="638" y="316" font-size="10.5" fill="#1a1a1a">속도가 오르면 회전이 받친다</text>
+    <text x="638" y="340" font-size="10.5" font-weight="700" fill="#8a6d24">그 사이에 공백이 없어야 한다</text>
+
+    <!-- 캡션 -->
+    <text x="20" y="396" font-size="13" fill="#1a1a1a">
+      유막은 축이 오일을 좁아지는 틈으로 끌고 들어갈 때 생긴다. 터닝 속도로는 그 작용이 일어나지 않아 축이 베어링에 닿은 채 움직인다.
+    </text>
+    <text x="20" y="418" font-size="13" fill="#1a1a1a">
+      그래서 대형 기계는 외부 펌프로 고압 오일을 축 아래에 밀어 넣어 들어 올린다. 회전이 압력을 만드는 동압과 달리, 속도가 필요 없는 정압 방식이다.
+    </text>
+    <text x="20" y="440" font-size="13" fill="#1a1a1a">
+      재킹 오일이 없거나 압력이 부족한 상태로 터닝하면 베어링 라이닝이 긁힌다. 윤활유 계통이 먼저 살아 있어야 하는 이유다.
+    </text>
+    <text x="20" y="462" font-size="13" fill="#1a1a1a">
+      씰도 같은 사정이다. 터닝 속도에서는 씰 면이 접촉하고 있으므로, 필요한 만큼만 돌리고 분리 가스는 계속 공급해야 한다.
+    </text>
+  </g>
+</svg>
