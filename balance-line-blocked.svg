@@ -1,0 +1,93 @@
+<svg viewBox="0 0 900 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="밸런스 라인이 정상일 때와 막혔을 때 챔버 압력과 추력 배분이 달라지는 비교">
+  <title>막히면 추력이 베어링으로 간다</title>
+
+  <defs>
+    <marker id="bkThrust" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#c0392b"/>
+    </marker>
+    <marker id="bkBal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#2f6b3a"/>
+    </marker>
+    <marker id="bkFlow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#1d5a92"/>
+    </marker>
+  </defs>
+
+  <g font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+
+    <!-- ============ ① 정상 ============ -->
+    <rect x="20" y="30" width="420" height="330" rx="8" fill="#f7fbf7" stroke="#d6e6d4"/>
+    <text x="40" y="58" font-size="14" font-weight="700" fill="#2c3e50">① 정상 — 라인이 열려 있다</text>
+
+    <path d="M 300 128 L 300 96 L 90 96" fill="none" stroke="#1d5a92" stroke-width="8"/>
+    <path d="M 200 96 L 160 96" stroke="#1d5a92" stroke-width="3" marker-end="url(#bkFlow)"/>
+    <text x="210" y="86" font-size="10" font-weight="700" fill="#123049">흡입으로 배출</text>
+
+    <circle cx="300" cy="118" r="11" fill="#d8ecd6" stroke="#2f6b3a" stroke-width="2.2"/>
+    <path d="M 300 108 L 300 128" stroke="#2f6b3a" stroke-width="2.4"/>
+    <text x="318" y="122" font-size="10" font-weight="700" fill="#2f6b3a">밸브 개방</text>
+
+    <rect x="130" y="140" width="110" height="94" fill="#f0d9d4" stroke="#8a281c" stroke-width="1.6"/>
+    <text x="185" y="182" font-size="10.5" font-weight="700" fill="#8a281c" text-anchor="middle">토출 압력</text>
+    <text x="185" y="198" font-size="10.5" font-weight="700" fill="#8a281c" text-anchor="middle">높다</text>
+
+    <rect x="240" y="146" width="40" height="82" fill="#c8a882" stroke="#a8795a" stroke-width="2"/>
+    <text x="260" y="134" font-size="10" font-weight="700" fill="#7a4f34" text-anchor="middle">드럼</text>
+
+    <rect x="280" y="140" width="110" height="94" fill="#dce8f2" stroke="#1d5a92" stroke-width="1.6"/>
+    <text x="335" y="182" font-size="10.5" font-weight="700" fill="#123049" text-anchor="middle">챔버</text>
+    <text x="335" y="198" font-size="10.5" font-weight="700" fill="#123049" text-anchor="middle">낮다</text>
+
+    <path d="M 194 262 L 326 262" stroke="#5b6673" stroke-width="1.8" marker-start="url(#bkFlow)" marker-end="url(#bkFlow)"/>
+    <text x="260" y="282" font-size="11.5" font-weight="700" fill="#2c3e50" text-anchor="middle">큰 압력차</text>
+
+    <path d="M 160 312 L 280 312" stroke="#2f6b3a" stroke-width="7" marker-end="url(#bkBal)"/>
+    <text x="294" y="316" font-size="11" font-weight="700" fill="#2f6b3a">되미는 힘 충분</text>
+
+    <text x="40" y="346" font-size="11" font-weight="700" fill="#2f6b3a">베어링은 남은 몫만 받는다</text>
+
+    <!-- ============ ② 막힘 ============ -->
+    <rect x="460" y="30" width="420" height="330" rx="8" fill="#fdf9f8" stroke="#e8d9d6"/>
+    <text x="480" y="58" font-size="14" font-weight="700" fill="#2c3e50">② 막힘 — 라인이 닫혔다</text>
+
+    <path d="M 740 128 L 740 96 L 530 96" fill="none" stroke="#b8c4cc" stroke-width="8"/>
+
+    <circle cx="740" cy="118" r="11" fill="#fbe9e7" stroke="#c0392b" stroke-width="2.2"/>
+    <path d="M 730 110 L 750 126 M 750 110 L 730 126" stroke="#c0392b" stroke-width="2.6"/>
+    <text x="758" y="122" font-size="10" font-weight="700" fill="#a03228">잠김 또는 막힘</text>
+
+    <rect x="570" y="140" width="110" height="94" fill="#f0d9d4" stroke="#8a281c" stroke-width="1.6"/>
+    <text x="625" y="182" font-size="10.5" font-weight="700" fill="#8a281c" text-anchor="middle">토출 압력</text>
+    <text x="625" y="198" font-size="10.5" font-weight="700" fill="#8a281c" text-anchor="middle">높다</text>
+
+    <rect x="680" y="146" width="40" height="82" fill="#c8a882" stroke="#a8795a" stroke-width="2"/>
+    <text x="700" y="134" font-size="10" font-weight="700" fill="#7a4f34" text-anchor="middle">드럼</text>
+
+    <rect x="720" y="140" width="110" height="94" fill="#f0d9d4" stroke="#8a281c" stroke-width="1.6"/>
+    <text x="775" y="176" font-size="10.5" font-weight="700" fill="#8a281c" text-anchor="middle">챔버</text>
+    <text x="775" y="192" font-size="10.5" font-weight="700" fill="#8a281c" text-anchor="middle">압력 상승</text>
+    <path d="M 775 218 L 775 202" stroke="#c0392b" stroke-width="3" marker-end="url(#bkThrust)"/>
+
+    <path d="M 690 262 L 710 262" stroke="#5b6673" stroke-width="1.8" marker-start="url(#bkFlow)" marker-end="url(#bkFlow)"/>
+    <text x="700" y="282" font-size="11.5" font-weight="700" fill="#a03228" text-anchor="middle">압력차 소멸</text>
+
+    <path d="M 680 312 L 700 312" stroke="#2f6b3a" stroke-width="3" marker-end="url(#bkBal)"/>
+    <text x="714" y="316" font-size="11" font-weight="700" fill="#a03228">되미는 힘 상실</text>
+
+    <text x="480" y="346" font-size="11" font-weight="700" fill="#a03228">추력 전체가 베어링으로 간다</text>
+
+    <!-- 캡션 -->
+    <text x="20" y="400" font-size="13" fill="#1a1a1a">
+      두 그림의 차이는 챔버 색 하나다. 라인이 막히면 누설 유체가 빠져나가지 못해 챔버가 토출 압력 쪽으로 차오른다.
+    </text>
+    <text x="20" y="422" font-size="13" fill="#1a1a1a">
+      압력차가 사라지면 되미는 힘도 사라진다. 잔류분만 받도록 설계된 쓰러스트 베어링이 추력 전체를 떠안는다.
+    </text>
+    <text x="20" y="444" font-size="13" fill="#1a1a1a">
+      하중이 커지면 유막이 얇아지고, 얇아지면 발열이 커져 점도가 떨어진다. 자기 가속형 손상이라 진행이 빠르다.
+    </text>
+    <text x="20" y="466" font-size="13" fill="#1a1a1a">
+      드럼이 마모된 경우도 결과는 같은 방향이다. 누설이 늘어 라인의 압력 손실이 커지면 챔버 압력이 서서히 올라간다.
+    </text>
+  </g>
+</svg>
