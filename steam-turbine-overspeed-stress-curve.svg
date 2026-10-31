@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif" viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="회전 속도에 따른 원심응력 증가 그래프">
+  <rect width="640" height="360" fill="#ffffff"/>
+  <!-- axes -->
+  <line x1="80" y1="300" x2="600" y2="300" stroke="#444" stroke-width="1.5"/>
+  <line x1="80" y1="300" x2="80" y2="40" stroke="#444" stroke-width="1.5"/>
+  <!-- zones: x from 80% (x=80) to 130% (x=600): 10.4 px per % -->
+  <rect x="288" y="40" width="52" height="260" fill="#e8f1fb"/>
+  <rect x="340" y="40" width="52" height="260" fill="#fdf1dc"/>
+  <rect x="392" y="40" width="208" height="260" fill="#fbe3e3"/>
+  <!-- curve: stress ratio = (s/100)^2, y: ratio 0.6 -> 300, 1.7 -> 40 ; 236.4 px per 1.0 -->
+  <polyline fill="none" stroke="#1f5fa8" stroke-width="3"
+    points="80,291 132,271 184,250 236,228 288,205 340,181 392,156 444,129 496,101 548,72 600,42"/>
+  <!-- markers -->
+  <line x1="288" y1="300" x2="288" y2="40" stroke="#1f5fa8" stroke-dasharray="4 4"/>
+  <line x1="392" y1="300" x2="392" y2="40" stroke="#c0392b" stroke-dasharray="4 4"/>
+  <circle cx="288" cy="205" r="5" fill="#1f5fa8"/>
+  <circle cx="392" cy="156" r="5" fill="#c0392b"/>
+  <circle cx="496" cy="101" r="5" fill="#7a1d12"/>
+  <text x="296" y="222" font-size="13" fill="#1f5fa8">정격 100% → 응력 1.00</text>
+  <text x="400" y="174" font-size="13" fill="#c0392b">110% → 1.21</text>
+  <text x="430" y="96" text-anchor="end" font-size="13" fill="#7a1d12">120% → 1.44</text>
+  <text x="292" y="290" font-size="12" fill="#1f5fa8">정상 운전</text>
+  <text x="350" y="290" font-size="12" fill="#a46a00">MCS</text>
+  <text x="530" y="290" font-size="12" fill="#c0392b">트립 영역</text>
+  <!-- ticks -->
+  <g font-size="12" fill="#444" text-anchor="middle">
+    <text x="80" y="320">80%</text><text x="184" y="320">90%</text><text x="288" y="320">100%</text>
+    <text x="392" y="320">110%</text><text x="496" y="320">120%</text><text x="600" y="320">130%</text>
+  </g>
+  <text x="340" y="345" font-size="13" fill="#222" text-anchor="middle">회전 속도 (정격 대비)</text>
+  <text x="30" y="170" font-size="13" fill="#222" text-anchor="middle" transform="rotate(-90 30 170)">원심응력 (정격 = 1)</text>
+</svg>

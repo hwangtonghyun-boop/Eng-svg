@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif" viewBox="0 0 680 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="거버너 경로와 과속 트립 경로 비교 다이어그램">
+  <rect width="680" height="300" fill="#ffffff"/>
+  <defs>
+    <marker id="ar" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#444"/></marker>
+  </defs>
+  <!-- steam inlet -->
+  <rect x="20" y="120" width="90" height="60" rx="8" fill="#eeeeee" stroke="#888"/>
+  <text x="65" y="155" font-size="14" text-anchor="middle">증기 입구</text>
+  <!-- T&T valve -->
+  <rect x="150" y="110" width="120" height="80" rx="8" fill="#fbe3e3" stroke="#c0392b" stroke-width="2"/>
+  <text x="210" y="145" font-size="14" text-anchor="middle" fill="#7a1d12">트립·스로틀 밸브</text>
+  <text x="210" y="165" font-size="12" text-anchor="middle" fill="#7a1d12">(T&amp;T 밸브)</text>
+  <!-- governor valve -->
+  <rect x="310" y="110" width="120" height="80" rx="8" fill="#e8f1fb" stroke="#1f5fa8" stroke-width="2"/>
+  <text x="370" y="145" font-size="14" text-anchor="middle" fill="#1f5fa8">거버너 밸브</text>
+  <text x="370" y="165" font-size="12" text-anchor="middle" fill="#1f5fa8">(유량 조절)</text>
+  <!-- turbine -->
+  <polygon points="470,105 570,85 570,215 470,195" fill="#f3f3f3" stroke="#555"/>
+  <text x="520" y="155" font-size="14" text-anchor="middle">터빈 로터</text>
+  <line x1="570" y1="150" x2="660" y2="150" stroke="#555" stroke-width="6"/>
+  <text x="625" y="140" font-size="12" text-anchor="middle">펌프 등</text>
+  <!-- steam flow arrows -->
+  <line x1="110" y1="150" x2="148" y2="150" stroke="#444" stroke-width="2" marker-end="url(#ar)"/>
+  <line x1="270" y1="150" x2="308" y2="150" stroke="#444" stroke-width="2" marker-end="url(#ar)"/>
+  <line x1="430" y1="150" x2="468" y2="150" stroke="#444" stroke-width="2" marker-end="url(#ar)"/>
+  <!-- governor loop (top) -->
+  <rect x="300" y="20" width="140" height="44" rx="8" fill="#e8f1fb" stroke="#1f5fa8"/>
+  <text x="370" y="47" font-size="13" text-anchor="middle" fill="#1f5fa8">거버너 (속도 제어)</text>
+  <path d="M520,85 L520,42 L442,42" fill="none" stroke="#1f5fa8" stroke-width="2" marker-end="url(#ar)"/>
+  <line x1="370" y1="64" x2="370" y2="108" stroke="#1f5fa8" stroke-width="2" marker-end="url(#ar)"/>
+  <!-- trip loop (bottom) -->
+  <rect x="300" y="236" width="170" height="44" rx="8" fill="#fbe3e3" stroke="#c0392b"/>
+  <text x="385" y="257" font-size="13" text-anchor="middle" fill="#7a1d12">과속 감지 (독립)</text>
+  <text x="385" y="273" font-size="11" text-anchor="middle" fill="#7a1d12">트립 볼트 또는 전자식 2oo3</text>
+  <path d="M520,215 L520,258 L472,258" fill="none" stroke="#c0392b" stroke-width="2" marker-end="url(#ar)"/>
+  <path d="M300,258 L210,258 L210,192" fill="none" stroke="#c0392b" stroke-width="2" marker-end="url(#ar)"/>
+</svg>
