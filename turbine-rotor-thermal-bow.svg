@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 680 300" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif"><rect width="680" height="300" fill="#fff"/><defs><marker id="ar" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10z" fill="#444"/></marker></defs>
+<defs><linearGradient id="hot" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e57368"/><stop offset="1" stop-color="#7fa7d6"/></linearGradient></defs>
+<text x="170" y="32" font-size="16" font-weight="bold" text-anchor="middle" fill="#7a1d12">정지 상태에서 증기가 새어 들 때</text>
+<rect x="40" y="70" width="260" height="70" rx="6" fill="#f3f3f3" stroke="#888" stroke-dasharray="5 4"/>
+<text x="44" y="62" font-size="12" fill="#555">케이싱</text>
+<path d="M60,112 Q170,88 280,112" fill="none" stroke="url(#hot)" stroke-width="22" stroke-linecap="round"/>
+<text x="200" y="62" font-size="12" text-anchor="middle" fill="#c0392b">윗면: 뜨거움 → 늘어남</text>
+<text x="170" y="158" font-size="12" text-anchor="middle" fill="#1f5fa8">아랫면: 차가움</text>
+<polygon points="52,126 68,126 60,140" fill="#555"/><polygon points="272,126 288,126 280,140" fill="#555"/>
+<text x="170" y="190" font-size="13" text-anchor="middle">로터가 위로 휜다 (열적 휨)</text>
+<line x1="330" y1="110" x2="380" y2="110" stroke="#444" stroke-width="2" marker-end="url(#ar)"/>
+<text x="510" y="32" font-size="16" font-weight="bold" text-anchor="middle" fill="#1f5fa8">슬로우 롤로 돌려 주면</text>
+<rect x="390" y="70" width="260" height="70" rx="6" fill="#f3f3f3" stroke="#888" stroke-dasharray="5 4"/>
+<line x1="410" y1="105" x2="630" y2="105" stroke="#c88a7f" stroke-width="22" stroke-linecap="round"/>
+<polygon points="402,120 418,120 410,134" fill="#555"/><polygon points="622,120 638,120 630,134" fill="#555"/>
+<text x="510" y="165" font-size="15" text-anchor="middle" fill="#1f5fa8">↻ 저속 회전</text>
+<text x="510" y="194" font-size="13" text-anchor="middle">온도가 고르게 퍼지며 휨이 풀린다</text>
+<rect x="40" y="215" width="610" height="66" rx="8" fill="#fdf1dc"/>
+<text x="345" y="242" font-size="13" text-anchor="middle">휜 로터를 그대로 올리면 질량 불균형처럼 작용해 진동이 커지고,</text>
+<text x="345" y="264" font-size="13" text-anchor="middle">실(seal)·날개 끝이 케이싱에 닿아 간극이 영구히 넓어진다.</text>
+</svg>

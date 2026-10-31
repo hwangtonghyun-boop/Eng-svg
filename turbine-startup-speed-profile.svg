@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 680 360" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif"><rect width="680" height="360" fill="#fff"/><defs><marker id="ar" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10z" fill="#444"/></marker></defs>
+<rect x="70" y="40" width="590" height="270" fill="#fff"/>
+<rect x="70" y="150" width="590" height="40" fill="#fbe3e3"/>
+<text x="655" y="175" font-size="12" text-anchor="end" fill="#c0392b">임계속도 대역 — 머물지 말고 통과</text>
+<line x1="70" y1="310" x2="660" y2="310" stroke="#444" stroke-width="1.5" marker-end="url(#ar)"/>
+<line x1="70" y1="310" x2="70" y2="35" stroke="#444" stroke-width="1.5" marker-end="url(#ar)"/>
+<rect x="70" y="40" width="130" height="270" fill="#eef2f6"/>
+<text x="135" y="62" font-size="13" text-anchor="middle" fill="#1f5fa8">① 웜업·드레인</text>
+<text x="135" y="80" font-size="12" text-anchor="middle" fill="#555">(정지 또는 터닝)</text>
+<polyline fill="none" stroke="#1f5fa8" stroke-width="3" points="70,305 200,305 230,268 360,268 380,215 400,215 420,135 470,95 560,95 575,80 640,80"/>
+<text x="295" y="258" font-size="13" text-anchor="middle" fill="#1f5fa8">② 슬로우 롤 유지</text>
+<text x="300" y="292" font-size="12" text-anchor="middle" fill="#555">진동·마찰음·베어링 온도 확인</text>
+<text x="425" y="232" font-size="12" text-anchor="start" fill="#555">중간 유지</text>
+<text x="520" y="118" font-size="13" text-anchor="middle" fill="#1f5fa8">③ 거버너 최저속도</text>
+<text x="610" y="72" font-size="13" text-anchor="middle" fill="#1f5fa8">④ 정격</text>
+<text x="365" y="340" font-size="13" text-anchor="middle">시간</text>
+<text x="35" y="175" font-size="13" text-anchor="middle" transform="rotate(-90 35 175)">회전 속도</text>
+</svg>
