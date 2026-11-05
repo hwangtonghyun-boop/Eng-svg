@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 680 360" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif"><rect width="680" height="360" fill="#fff"/><line x1="80" y1="266.7" x2="640" y2="266.7" stroke="#eee"/><text x="74" y="270.7" font-size="11" text-anchor="end" fill="#777">1×</text><line x1="80" y1="233.3" x2="640" y2="233.3" stroke="#eee"/><text x="74" y="237.3" font-size="11" text-anchor="end" fill="#777">2×</text><line x1="80" y1="200.0" x2="640" y2="200.0" stroke="#eee"/><text x="74" y="204.0" font-size="11" text-anchor="end" fill="#777">3×</text><line x1="80" y1="166.7" x2="640" y2="166.7" stroke="#eee"/><text x="74" y="170.7" font-size="11" text-anchor="end" fill="#777">4×</text><line x1="80" y1="133.3" x2="640" y2="133.3" stroke="#eee"/><text x="74" y="137.3" font-size="11" text-anchor="end" fill="#777">5×</text><line x1="80" y1="100.0" x2="640" y2="100.0" stroke="#eee"/><text x="74" y="104.0" font-size="11" text-anchor="end" fill="#777">6×</text><line x1="80" y1="66.7" x2="640" y2="66.7" stroke="#eee"/><text x="74" y="70.7" font-size="11" text-anchor="end" fill="#777">7×</text>
+<polyline points="80.0,300.0 82.3,83.3 196.7,100.0 238.7,126.7 262.0,216.7 280.7,266.7 640.0,266.7" fill="none" stroke="#c0392b" stroke-width="3"/>
+<polyline points="80.0,300.0 82.3,226.7 290.0,233.3 327.3,253.3 329.7,290.0 332.0,140.0 350.7,233.3 369.3,266.7 640.0,266.7" fill="none" stroke="#a46a00" stroke-width="3"/>
+<polyline points="80.0,300.0 82.3,260.0 150.0,183.3 430.0,183.3 467.3,233.3 490.7,266.7 640.0,266.7" fill="none" stroke="#1f5fa8" stroke-width="3"/>
+<polyline points="80.0,300.0 94.0,263.3 523.3,261.7 546.7,266.7 640.0,266.7" fill="none" stroke="#2e8b57" stroke-width="3"/>
+<line x1="80" y1="300" x2="640" y2="300" stroke="#444" stroke-width="1.5"/><line x1="80" y1="300" x2="80" y2="40" stroke="#444" stroke-width="1.5"/>
+<text x="136.0" y="75.3" font-size="13" fill="#c0392b">직입 기동</text>
+<text x="341.3" y="134.0" font-size="13" fill="#a46a00">Y-Δ 전환 순간</text>
+<text x="126.7" y="244.7" font-size="13" fill="#a46a00">Y-Δ (Y 운전 중)</text>
+<text x="385" y="175.3" font-size="13" fill="#1f5fa8">소프트 스타터 (전류 제한)</text>
+<text x="528.0" y="251.7" font-size="13" fill="#2e8b57" text-anchor="end">인버터</text>
+<text x="360.0" y="330" font-size="13" text-anchor="middle">시간</text>
+<text x="32" y="170" font-size="13" text-anchor="middle" transform="rotate(-90 32 170)">선전류 (정격 대비)</text>
+</svg>
