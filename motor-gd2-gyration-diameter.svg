@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 680 320" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif"><rect width="680" height="320" fill="#fff"/>
+<text x="170" y="30" font-size="15" font-weight="bold" text-anchor="middle">실제 회전체 (질량 G)</text>
+<circle cx="170" cy="160" r="100" fill="#e8f1fb" stroke="#1f5fa8" stroke-width="2"/>
+<circle cx="170" cy="160" r="12" fill="#1f5fa8"/>
+<line x1="70" y1="275" x2="270" y2="275" stroke="#555"/><line x1="70" y1="268" x2="70" y2="282" stroke="#555"/><line x1="270" y1="268" x2="270" y2="282" stroke="#555"/>
+<text x="170" y="298" font-size="12" text-anchor="middle" fill="#555">겉지름 (실제 치수)</text>
+<text x="340" y="165" font-size="28" text-anchor="middle" fill="#444">=</text>
+<text x="510" y="30" font-size="15" font-weight="bold" text-anchor="middle">같은 관성을 갖는 얇은 링</text>
+<circle cx="510" cy="160" r="70.7" fill="none" stroke="#c0392b" stroke-width="9"/>
+<circle cx="510" cy="160" r="4" fill="#555"/>
+<line x1="439.3" y1="160" x2="580.7" y2="160" stroke="#7a1d12" stroke-dasharray="5 4"/>
+<text x="510" y="152" font-size="14" text-anchor="middle" fill="#7a1d12">D (회전 지름)</text>
+<text x="510" y="262" font-size="13" text-anchor="middle" fill="#7a1d12">질량 G를 지름 D의 링에 모았다고 볼 때</text>
+<text x="510" y="284" font-size="13" text-anchor="middle" fill="#7a1d12">GD² = G × D²</text>
+<text x="170" y="60" font-size="12" text-anchor="middle" fill="#555">질량이 반경 곳곳에 퍼져 있음</text>
+</svg>
