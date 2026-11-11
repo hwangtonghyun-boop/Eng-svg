@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 680 300" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif"><rect width="680" height="300" fill="#fff"/>
+<rect x="40" y="100" width="120" height="20" fill="#9db8d8" stroke="#1f5fa8"/><line x1="30" y1="110" x2="340" y2="110" stroke="#1f5fa8" stroke-dasharray="6 4"/><g transform="rotate(0 170 88)"><rect x="170" y="78" width="120" height="20" fill="#e8a33d" stroke="#a46a00"/><line x1="160" y1="88" x2="340" y2="88" stroke="#a46a00" stroke-dasharray="6 4"/></g><text x="100" y="150" font-size="12" text-anchor="middle" fill="#1f5fa8">펌프 축</text><text x="230" y="128" font-size="12" text-anchor="middle" fill="#a46a00">모터 축</text><text x="170" y="70" font-size="15" font-weight="bold" text-anchor="middle">평행 오프셋 (Offset)</text>
+
+<rect x="380" y="100" width="120" height="20" fill="#9db8d8" stroke="#1f5fa8"/><line x1="370" y1="110" x2="680" y2="110" stroke="#1f5fa8" stroke-dasharray="6 4"/><g transform="rotate(-6 510 110)"><rect x="510" y="100" width="120" height="20" fill="#e8a33d" stroke="#a46a00"/><line x1="500" y1="110" x2="680" y2="110" stroke="#a46a00" stroke-dasharray="6 4"/></g><text x="440" y="150" font-size="12" text-anchor="middle" fill="#1f5fa8">펌프 축</text><text x="570" y="150" font-size="12" text-anchor="middle" fill="#a46a00">모터 축</text><text x="510" y="70" font-size="15" font-weight="bold" text-anchor="middle">각도 틀어짐 (Angularity)</text>
+<rect x="30" y="200" width="620" height="80" rx="8" fill="#f5f8fc"/>
+<text x="340" y="228" font-size="13" text-anchor="middle">실제 축은 두 가지가 섞여 있고, 수직면과 수평면에서 각각 나타난다.</text>
+<text x="340" y="252" font-size="13" text-anchor="middle">→ 수직 오프셋 · 수직 각도 · 수평 오프셋 · 수평 각도, 네 개 값으로 정렬 상태를 표현</text>
+</svg>
